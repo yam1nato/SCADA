@@ -9,7 +9,7 @@ Ce projet présente la conception, le câblage logique et la sécurisation d'une
 | **2 Capteurs Booléens** | • `Start Button 0`<br>• `Stop Button 0`<br>• `Diffuse Sensor 0` *(calcule le nombre de colis)* |
 | **2 Capteurs Register** | • `Potentiometer 0 (V)`<br>• `Vision Sensor 0 (Value)` *(calcule la hauteur du colis)* |
 | **2 Actionneurs Booléens** | • `Pusher 0`<br>• `Warning Light 0` *(s'allume si le nombre de colis poussés pour être gardés est supérieur ou égal à 5)*<br>• `Alarm Siren 0` *(s'allume si on arrive à 6)*<br>• `Start Button 0 (Light)`<br>• `Stop Button 0 (Light)` |
-| **2 Actionneurs Register** | • `Belt Conveyor (6m) 0 (V)`<br>• `Belt Conveyor (4m) 0 (V)`<br>• `Digital Display 0` |
+| **2 Actionneurs Register** | • `Belt Conveyor (6m) 0 (V)`<br>• `Belt Conveyor (4m) 0 (V)`<br>• `Digital Display 0` *(affiche le nombre de colis avec une hauteur supérieur ou égal à 6)* |
 | **Procédure d’Arrêt d’Urgence** | • `Emergency Stop 0` *(câblé en coupure directe sur les Belt Conveyors, la Warning Light et l'Alarm Siren)* |
 
 ---
