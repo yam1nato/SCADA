@@ -53,7 +53,9 @@ Pour garantir un arrêt immédiat sans conflit de type de données, le bouton `E
 
 ## Visuels du Système
 
-Le dossier du projet comprend trois captures d'écran clés documentant la réalisation :
-1. ![control-io.webp](photos/control-io.webp) Capture complète du schéma logique Control I/O mettant en évidence le câblage propre des blocs logiques, arithmétiques et de comptage ainsi que l'interconnexion de l'arrêt d'urgence.
-2. ![au_dessus.webp](photos/au_dessus.webp)  Vue d'ensemble de la scène Factory I/O illustrant la disposition en T des tapis roulants, le capteur de vision, le `Pusher 0` et le flux.
-3. ![bouton.webp](photos/bouton.webp) Gros plan sur le coffret électrique d'exploitation équipé du potentiomètre de vitesse, de l'afficheur numérique de pièces, des voyants Marche/Arrêt et du bouton coup de poing rouge `Emergency Stop 0`.
+1. Schéma logique Control I/O mettant en évidence le câblage propre des blocs logiques, arithmétiques et de comptage ainsi que l'interconnexion de l'arrêt d'urgence. 
+![control-io.webp](photos/control-io.webp)  
+2. Vue d'ensemble de la scène Factory I/O illustrant la disposition en T des tapis roulants, le capteur de vision, le `Pusher 0` et le flux. 
+![au_dessus.webp](photos/au_dessus.webp)  
+3. Gros plan sur le boîtier électrique équipé du potentiomètre de vitesse, du `Digital Display 0`, des voyants Marche/Arrêt et du bouton  `Emergency Stop 0`.
+ ![bouton.webp](photos/bouton.webp) 
