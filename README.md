@@ -55,7 +55,7 @@ Pour garantir un arrêt immédiat sans conflit de type de données, le bouton `E
 
 1. Schéma logique Control I/O mettant en évidence le câblage propre des blocs logiques, arithmétiques et de comptage ainsi que l'interconnexion de l'arrêt d'urgence. 
 ![control-io.webp](photos/control-io.webp)  
-2. Vue d'ensemble de la scène Factory I/O illustrant la disposition en T des tapis roulants, le capteur de vision, le `Pusher 0` et le flux. 
+2. Vue d'ensemble de la scène Factory I/O illustrant la disposition générale des `Belt Conveyors`, le `Vision Sensor 0` et le `Pusher 0`. 
 ![au_dessus.webp](photos/au_dessus.webp)  
-3. Gros plan sur le boîtier électrique équipé du potentiomètre de vitesse, du `Digital Display 0`, des voyants Marche/Arrêt et du bouton  `Emergency Stop 0`.
+3. Gros plan sur le boîtier électrique équipé du `Potentiometer 0 (V)`, du `Digital Display 0`, des voyants Marche/Arrêt et du bouton  `Emergency Stop 0`.
  ![bouton.webp](photos/bouton.webp) 
