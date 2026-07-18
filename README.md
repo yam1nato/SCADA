@@ -33,8 +33,6 @@ Il s'agit d'un système de tri conçu pour traiter des `Stackable boxes` contena
 
 ## Architecture Technique sous Control I/O
 
-Le programme est structuré en sous-systèmes indépendants pour assurer le bon fonctionnement de la logique :
-
 ### 1. Contrôle de la Ligne et Gestion de la Vitesse
 * **Marche / Arrêt :** Une bascule `RS` est pilotée par le `Start Button 0` (Set) et le `Stop Button 0` inversé par une porte `NOT` (Reset). 
 * **Consigne de Vitesse :** Un `Potentiometer 0 (V)` délivre une consigne analogique. Un bloc `MAX` bride la vitesse minimale à `2.0`. Cette valeur est multipliée via un bloc `MUL` par la sortie filtrée de la bascule `RS` pour piloter les moteurs.
