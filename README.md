@@ -4,8 +4,6 @@ Ce projet présente la conception, le câblage logique et la sécurisation d'une
 
 ## Table de Validation de la Configuration
 
-Le système implémente l'intégralité du cahier des charges minimal requis pour l'évaluation et l'enrichit avec plusieurs actionneurs et capteurs complémentaires pour parfaire le scénario industriel.
-
 | Configuration minimale requise | Éléments présents sur le schéma et la scène |
 | :--- | :--- |
 | **2 Capteurs Booléens** | • `Start Button 0`<br>• `Stop Button 0`<br>• `Diffuse Sensor 0` *(calcule le nombre de colis)* |
@@ -20,7 +18,7 @@ Le système implémente l'intégralité du cahier des charges minimal requis pou
 
 Il s'agit d'un système de tri conçu pour traiter des `Stackable boxes` contenant des `products` à l'intérieur. Le cheminement s'effectue selon le scénario suivant :
 
-1. **Démarrage de la ligne :** Les tapis (`Belt Conveyor`) se mettent à rouler lorsque l'on déclenche le système à l'aide du `Start Button 0`.
+1. **Démarrage de la ligne :** Les tapis (`Belt Conveyor`) se mettent à rouler lorsque l'on déclenche le système à l'aide du `Start Button 0`. On peut également régler la vitesse comme on le souhaite sur le `Potentiometer 0 (V)`.
 2. **Détection et analyse :** Une fois que le colis passe sous le `Vision Sensor 0 (Value)`, ce dernier détecte sa hauteur. 
 3. **Tri automatique :** Si la hauteur détectée est supérieure ou égale à `6`, le `Pusher 0` s'active pour pousser le colis sur le deuxième tapis (`Belt Conveyor 4m`). Sinon, le colis continue sa route tout droit pour être supprimé.
 4. **Comptage et Affichage :** Une fois dévié sur le deuxième tapis, le colis passe devant un `Diffuse Sensor 0`. Ce capteur calcule le nombre de colis triés et envoie l'information en temps réel sur notre `Digital Display 0`.
@@ -58,6 +56,6 @@ Pour garantir un arrêt immédiat sans conflit de type de données, le bouton `E
 ## Visuels du Système
 
 Le dossier du projet comprend trois captures d'écran clés documentant la réalisation :
-1. ![control-io.webp](photos/control-io.webp) : Capture complète du schéma logique Control I/O mettant en évidence le câblage propre des blocs logiques, arithmétiques et de comptage ainsi que l'interconnexion de l'arrêt d'urgence.
-2. ![au_dessus.webp](photos/au_dessus.webp)  : Vue d'ensemble de la scène Factory I/O illustrant la disposition en T des tapis roulants, le capteur de vision, le `Pusher 0` et le flux.
-3. ![bouton.webp](photos/bouton.webp) : Gros plan sur le coffret électrique d'exploitation équipé du potentiomètre de vitesse, de l'afficheur numérique de pièces, des voyants Marche/Arrêt et du bouton coup de poing rouge `Emergency Stop 0`.
+1. ![control-io.webp](photos/control-io.webp) Capture complète du schéma logique Control I/O mettant en évidence le câblage propre des blocs logiques, arithmétiques et de comptage ainsi que l'interconnexion de l'arrêt d'urgence.
+2. ![au_dessus.webp](photos/au_dessus.webp)  Vue d'ensemble de la scène Factory I/O illustrant la disposition en T des tapis roulants, le capteur de vision, le `Pusher 0` et le flux.
+3. ![bouton.webp](photos/bouton.webp) Gros plan sur le coffret électrique d'exploitation équipé du potentiomètre de vitesse, de l'afficheur numérique de pièces, des voyants Marche/Arrêt et du bouton coup de poing rouge `Emergency Stop 0`.
