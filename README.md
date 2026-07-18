@@ -1,6 +1,6 @@
 # Projet d'Automatisation - Système de Tri avec Factory I/O et Control I/O
 
-Ce projet présente la conception, le câblage logique et la sécurisation d'une ligne de tri industrielle automatisée sous **Factory I/O** pilotée par **Control I/O**. Le système gère le défilement de colis, l'identification par capteur de vision, le tri via un pousseur pneumatique, le comptage avec affichage en temps réel, un système d'alertes graduées, ainsi qu'une procédure d'arrêt d'urgence.
+L'objectif de ce projet est de trier et de conserver uniquement les colis ayant une hauteur supérieure ou égale à 6 afin de les envoyer vers une palette XXL. Le système est conçu pour nous avertir dès que le nombre de colis triés dépasse 5. Des dispositifs de sécurité, tels que la `Warning Light 0` et l'`Alarm Siren 0`, se déclenchent pour signaler ce dépassement. Cela permet à l'opérateur de tout interrompre à l'aide de l'`Emergency Stop 0`, ou d'utiliser le `Stop Button 0` standard si ces deux alarmes ne se sont pas encore déclenchées.
 
 ## Table de Validation de la Configuration
 
